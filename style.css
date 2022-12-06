@@ -1,0 +1,43 @@
+
+/* CSS for the first part of the website (title and image) */
+
+.section-1 {
+    display: flex;
+    background-color: #1f2937;
+    padding: 70px 200px;
+    gap: 70px;
+    font-family: 'Hero Main text', sans-serif
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    line-height: 28pt;
+}
+.section-1-a p {
+    font-size: 18px;
+    color: #E5E7EB;  
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border-style: none;
+    font-weight: 700;
+}
+
+
+img {
+    width: 1000px;
+    height: 200px;
+    background-color: gray;
+}
+
+.section-1-a {
+    margin-right: auto;
+}
+
+
+/* CSS for second part of the website */
