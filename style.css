@@ -1,14 +1,18 @@
 
 /* CSS for the first part of the website (title and image) */
+body {
+    margin: 0;
+}
 
 .section-1 {
     display: flex;
     background-color: #1f2937;
     padding: 70px 200px;
     gap: 70px;
-    font-family: 'Hero Main text', sans-serif
+    font-family: 'Hero Main text', sans-serif;
+    margin: 0;
 }
-.title {
+.section-1-a .title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -17,6 +21,7 @@
 .section-1-a p {
     font-size: 18px;
     color: #E5E7EB;  
+    width: 400px;
 }
 
 button {
@@ -29,10 +34,14 @@ button {
 }
 
 
-img {
-    width: 1000px;
-    height: 200px;
+.section-1 img {
+    width: 500px;
+    height: auto;
     background-color: gray;
+    flex-shrink: 1;
+    
+    margin-right: auto;
+
 }
 
 .section-1-a {
